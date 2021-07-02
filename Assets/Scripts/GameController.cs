@@ -36,6 +36,7 @@ public class GameController : MonoBehaviour
     public void RePlay()
     {
         SceneManager.LoadScene("GamePlay");
+        Debug.Log("111111");
     }
     public void SpawnEnemy()
     {
